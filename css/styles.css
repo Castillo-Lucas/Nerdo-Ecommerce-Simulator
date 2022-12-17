@@ -1,0 +1,931 @@
+a, span{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navEnlaces{
+    color: #37373f;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navEnlaces:hover{
+    color: #5fa201;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*Quick Menu*/
+#quickMenu{
+    background-color: #2D2D33;
+    min-height: 35px;
+    padding: 8px;
+}
+
+#quickMenu a{
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+#quickMenu img{
+    width: 25px; 
+    margin-right: 10px;
+}
+
+#point{
+    width: 15px !important; 
+    margin-right: 10px;
+}
+
+/*Clima*/
+#boxWeather{
+    height: 23px;
+}
+
+.textoClima{    
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgClima{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0px;
+    margin-top: -24px;
+    margin-bottom: -20px;
+    
+}
+/*----------------------------------------------------------------------------------------------------------------------------------
+/*Menu*/
+#primerMenu{
+    min-height: 77px;
+    background-color: #37373F;
+}
+
+#primerMenue{
+    min-height: 75px;
+}
+
+/*Logo*/
+#imgLogo{
+    width: 200px;
+}
+
+.cajaLogo{
+    min-height: 75px;
+}
+
+/*Form*/
+.formPlace:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.buttonPlace:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/*Form para Movil*/
+
+/*Loggin*/
+.logginSection{
+    color: #FAFAFA;
+    transition: all 200ms;
+}
+
+.logginSection:hover{
+    color: #FAFAFA;
+    transform: scale(1.01,1.01);
+}
+
+/*Imagen Carrito*/
+.imgCart{
+    transition: all 200ms;
+}
+
+.imgCart:hover{
+    transform: scale(1.05,1.05);
+}
+
+.boxButtonCart{
+    margin-left: -10px;
+}
+
+.boxButtonCart:focus{
+    box-shadow: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*Modal*/
+.anularCarrito{
+    cursor: not-allowed;
+    pointer-events:none;
+}
+
+.modalBox{
+    top: 94px;
+    background-color: #EEEEEE;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.158) 0px 5px 15px, rgba(65, 170, 5, 0.077) 0px 15px 25px, rgba(49, 175, 11, 0.063) 0px 5px 10px;
+}
+
+/*Modal Header*/
+.modalBoxTittle{
+    background-color: #37373F;
+    padding-left: 30%;
+}
+
+.modalBoxTittle>h1{
+    color: #FAFAFA;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.modalBoxTittle>button{
+    background-color: #3f3f47b6;
+    color: #FAFAFA;
+}
+
+.modalBoxTittle>button:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.modalBoxTittle>button:active{
+    border: none;
+    box-shadow: none;
+}
+
+/*Imagen Productos*/
+.modalImg{
+    width: 60px;
+    height: 60px;
+}
+
+/*Detalle Productos*/
+.modalDetail{
+    color: #343636;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Precio Productos*/
+.modalPrice{
+    color: #343636;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+}
+
+/*Cantidad de Productos*/
+.modalCant{
+    color: #343636;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+}
+
+/*Boton Quitar Productos*/
+.buttonModalCancel{
+    padding: 0px;
+    width: 26px;
+    height: 26px;
+    background-color: #c12a2a;
+    color: #EEEEEE;
+    border-radius: 15px;
+}
+
+.buttonModalCancel:hover{
+    background-color: #e62525;
+    color: #EEEEEE;
+    transform: scale(1.05, 1.05);
+}
+
+.buttonModalCancel:focus{
+    box-shadow: none;      
+}
+
+.buttonModalCancel:active{
+    background-color: #0b0202;
+    transform: scale(1, 1);  
+}
+
+/*Totales*/
+.totalModal{    
+    color: #343636;
+    font-size: 16px;
+    padding-left: 2%;
+}
+.totalPriceModal{    
+    color: #343636;
+    font-size: 16px;
+    padding-left: 6%;
+}
+
+/*Modal Footer*/
+/*Vaciar Carrito*/
+.vaciarCarrito{
+    background-color: #ce3d3d;
+    color: #EEEEEE;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vaciarCarrito:hover{
+    background-color: #a62d2d;
+    color: #EEEEEE;
+}
+
+.vaciarCarrito:focus{
+    box-shadow: none;    
+}
+
+.vaciarCarrito:active{
+    background-color: #0b0202;
+}
+
+/*Ir al Check Out*/
+.irAlCheckOut{
+    width: 100%;
+    background-color: #5cac37;
+    color: #EEEEEE;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.irAlCheckOut:hover{
+    background-color: #477333;
+    color: #EEEEEE;
+}
+
+.irAlCheckOut:focus{
+    box-shadow: none;    
+}
+
+.irAlCheckOut:active{
+    background-color: #0b0202;
+}
+
+.irAlCheckOut>a{
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*Lista Menu*/
+.listaMenu{
+    background-color: #EEEEEE;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*Banner*/
+#banner{
+    width: 100%;
+    height: 110px;
+    background-image: url(https://res.cloudinary.com/dthpuldpm/image/upload/v1665839606/Proyecto%20JS%20Coder/banner_wtgyht.jpg);
+    background-repeat: no-repeat;
+}
+/*-------------------------------------------------------- Section ---------------------------------------------------------------------------
+/*Section*/
+#section{
+    background-color: #FFFFFF;
+}
+
+/*Tittle*/
+#tittleHeadsection{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+/*Filter Bar*/
+/*Boton para borrar los filtros*/
+#borrarFiltro{
+    height: 30px;
+    font-size: 15px;
+    
+}
+
+#borrarFiltro:hover{
+    background-color: #FFFFFF;
+    color: #DC3545;
+    transform: scale(1.02,1.02);
+}
+
+#borrarFiltro:active{
+    background-color: #FFFFFF;
+    color: #DC3545;
+    transform: scale(0.9, 0.9);
+}
+
+#borrarFiltro:focus{
+    box-shadow: none;
+    border-radius: none;
+}
+
+/*Button*/
+.cajafilterButton{  
+    color: #343636;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18px;
+}
+#filterButton{
+    width: 80px;
+    background-color: #75757d;
+    height: 40px;
+    padding: 1px;
+}
+
+#filterButton>a{
+    color: #FFFF;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;   
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/*Lista de Filtros*/
+.boxListaProductos{
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.listaProductos{
+    line-height: 5px;
+    color: #343636;
+}
+
+.tituloListaProductos{
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: #343636;
+}
+.tituloListaProductos:hover{
+    color: #343636;
+}
+
+.listaProductos > a{    
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5px;
+    color: #343636;
+    font-size: 15px;
+}
+
+.listaProductos > a:hover{
+    color: #65ad01;
+    font-size: 16px;
+}
+
+.listaProductos > a:focus{
+    color: #343636;
+    font-size: 16px;
+}
+
+.listaProductos > ul{
+    margin-top: -3px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+    line-height: 10px;
+    color: #343636;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;    
+}
+
+.listaProductos>ul>li{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+
+.listaProductos > ul >li >ul >li > a{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -30px;
+    line-height: 5px;
+    color: #343636;
+    font-size: 14px;
+}
+.listaProductos>ul>li>ul>li>a:hover{
+    color: #65ad01;
+    font-size: 16px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*Cards*/
+/*Caja General de cada Card*/
+.cardProduct{
+    width: 18rem;
+    transition: all 300ms;
+    background-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cardProduct:hover{
+    box-shadow: rgba(0, 0, 0, 0.158) 0px 5px 15px, rgba(65, 170, 5, 0.077) 0px 15px 25px, rgba(49, 175, 11, 0.063) 0px 5px 10px;
+    border: 0.5px solid #c6f78259;
+    cursor: pointer;
+}
+
+/*Imagen de la Card*/
+.imgBoxCardProduct{
+    min-height: 286px;
+    background: rgb(216,216,216);
+    background: linear-gradient(0deg, rgba(216,216,216,1) 0%, rgba(236,236,236,1) 56%, rgba(250,250,250,1) 100%);
+}
+
+/*Detalle de la Card*/
+.detailCardPoruct{
+    color: #343636;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18px;
+}
+
+/*Precio*/
+.card-price{   
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/*Nombre*/
+.cardText{   
+    color: #343636;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    height: 67px;
+    
+}
+
+/*Boton*/
+.btnCard{   
+    width: 100%;
+    background-color: #477333;    
+    color: #ffff;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transition: all 300ms;
+}
+
+.btnCard:hover{   
+    background-color: #75757d;
+    color: #ffff;
+}
+
+.btnCard:active{   
+    background-color: #343636;
+    box-shadow: none;
+    color: #ffff;
+}
+
+.btnCard:focus{   
+    box-shadow: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*Burger Menu(Mobile Style)*/
+.navbar-toggler {
+    width: 35px;
+    height: 75px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #d3531a;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of 3 lines */
+.navbar-toggler.collapsed .toggler-icon {
+    background: linear-gradient( 263deg, #74C700 0%, rgb(178, 225, 228) 100% );
+}
+
+/*-------------------------------------------------------- Spinner ---------------------------------------------------------------------------*/
+
+
+.sk-chase {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #65ad01;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+  .sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+/*-------------------------------------------------------- Footer ---------------------------------------------------------------------------*/
+/*Datos de contacto*/
+.contactTittle{
+    color: #91c612;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contactDato{
+    color: #FAFAFA;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.contactDato>a{
+    text-decoration: none;
+}
+
+.contactDato>a:hover{
+    color: #91c612;
+}
+
+/*Email Form*/
+.emailformBox{
+    width: 100%;
+    border: none;
+}
+
+.emailform{
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.emailform:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.emailformButton{
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #91C612;
+}
+
+.emailformButton:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.emailformButton:active{
+    background-color: #476109;
+}
+
+.emailformButton > img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+/*Iconos Redes Sociales*/
+.socialIcon:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.socialIcon:active{
+    transform: scale(1.1, 1.1);
+}
+
+.name{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#firma{
+    background-color: #2D2D33;
+    min-height: 35px;
+    padding: 8px;
+}
+
+#firma a{
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+.name:hover{
+    color: #91C612;
+}
+
+#exampleModal{
+    width: 100%;
+    margin: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*Media Query*/
+
+@media (max-width: 7680px){
+    .disappear{
+        display: none;
+    }
+        
+    .cajafilterButton{
+        display: none;
+    }
+
+    .modalImg{
+        display: block;
+    }
+
+    .menuFormDisappear{
+        display: none;
+    }
+
+} 
+
+@media (max-width: 991px){
+        
+    .cajafilterButton{
+        display: block;
+    }
+    #quickMenu{ 
+        display: none;
+    }
+
+    .menuForm{
+        display: none;       
+    }
+    
+    .loggin{
+        display: none;  
+        visibility: hidden; 
+    }
+
+    #filterSection{
+        width: 100%;
+    }
+
+    .filterSection2{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.194);
+        margin-bottom: 10px;
+    }
+
+    /*Disappear*/
+    .disappear{
+        line-height: 35px;
+        display: block;
+    }
+    
+    .disappear a{
+        text-decoration: none;
+        cursor: pointer; 
+    }
+
+    .disappear span{
+        text-decoration: none;
+        cursor: pointer; 
+        color: #37373f;   
+    }
+    
+    .disappear img{
+        width: 25px; 
+        margin-left: 5px;
+    }
+
+    .menuFormDisappear{
+        display: flex;
+        border: none;
+        box-shadow: none;
+    }
+    .btnDisappear{
+        border: 1px solid gray;
+    }
+
+    .btnDisappear:focus{
+        border: 1px solid gray;
+    }
+
+    .btnDisappear:active{
+        border: 1px solid gray;
+    }
+
+    @media(max-width: 793px){
+        #banner{
+            background-position: 8%;
+        }
+    }   
+}
+
+@media (max-width: 767px){
+    body{
+        padding: 10px;
+        margin: -11px;
+    }
+    .cajaLogo{
+        width:50%;
+    }
+
+    #imgLogo{
+        margin-right: -60px;
+    }
+
+    .menuForm{
+       display: none;
+       visibility: hidden;
+    }
+
+    .loggin{
+        display: none;  
+        visibility: hidden; 
+    }
+
+    .boxFav{        
+        margin-right: -15px;
+    }
+
+    .boxCart{
+        margin-right: -60px;
+    } 
+}   
+
+@media(max-width: 681px){
+    #banner{
+        background-position: 15%;}
+}
+
+@media(max-width: 581px){
+    #banner{
+        background-position: 25%;
+    }
+}
+
+@media(max-width: 575px){
+    .modalImg{
+        display: none;
+    }
+}
+
+@media (max-width: 435px){
+    body{
+        padding: 10px;
+        margin: -11px;
+    }
+    .cajaLogo{
+        width:50%;
+    }
+
+    #imgLogo{
+        margin-right: -60px;
+    }
+
+    .menuForm{
+       display: none;
+       visibility: hidden;
+    }
+
+    .loggin{
+        display: none;  
+        visibility: hidden; 
+    }
+
+    .boxFav{        
+        margin-right: -15px;
+    }
+
+    .boxCart{
+        margin-right: -50px;
+    } 
+
+    #banner{
+        background-position: 30%;
+    }
+}
+
+@media (max-width: 320px) {
+    body{
+        padding-top: 10px;
+        margin: -11px;
+    }
+    .cajaLogo{
+        width:50%;
+    }
+
+    #imgLogo{
+        margin-right: -70px;
+    }
+
+    .menuForm{
+       display: none;
+       visibility: hidden;
+    }
+
+    .loggin{
+        display: none;  
+        visibility: hidden; 
+    }
+
+    .boxFav{        
+        display: none;
+    }
+
+    .boxCart{
+        margin-right: -15px;
+    } 
+}
+
+
+

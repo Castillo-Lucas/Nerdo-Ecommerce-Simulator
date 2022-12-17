@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdo | CheckOut</title>
+
+    <!--link rel="stylesheet" href="css/bootstrap.min.css"-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526589/Proyecto%20JS%20Coder/favicon_h6esea.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body">
+
+    <!--Quick Menu-->
+    <div class="container-fluid" id="quickMenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-8 d-flex justify-content-end px-3">
+                    <a href="construccion.html">
+                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/trucklogo_b6dxnd.png"
+                            alt="">
+                        <span class="span">Seguí tu compra</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2 d-flex justify-content-center">
+                    <a href="construccion.html">
+                        <img id="point"
+                            src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/pickuppointlogo_gadyvs.png"
+                            alt="">
+                        <span class="span">Retirá tu compra</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2 d-flex justify-content-center">
+                    <a href="construccion.html">
+                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/auricularescentrodeayuda_hcy2qg.png"
+                            alt="">
+                        <span class="span">Centro de ayuda</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Menu-->
+    <div class="container-fluid p-0  ps-3" id="primerMenu">
+        <div class="container" id="primerMenue">
+            <div class="row">
+
+                <!--Burger Menu Button-->
+                <button
+                    class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around col-2 col-md-4"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+
+                <!--Logo-->
+                <div
+                    class="col-9 col-md-7 col-lg-3 col-xl-3 d-flex justify-content-end justify-content-md-end align-items-center cajaLogo">
+                    <a href="index.html">
+                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526589/Proyecto%20JS%20Coder/logo_gtkxca.png"
+                            alt="" id="imgLogo">
+                    </a>
+                </div>
+
+                <!--Form-->
+                <div class="col-1 col-md-1 col-lg-5 col-xl-6 d-flex justify-content-center align-items-center menuForm">
+                    <form class="container-fluid menuForm">
+                        <div class="input-group menuForm">
+                            <input type="text" class="form-control formPlace" placeholder="Eso que querés..Buscalo acá"
+                                aria-label="Username" aria-describedby="basic-addon1">
+
+                            <button type="button" class="btn btn-light buttonPlace menuForm"><img
+                                    src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665609575/Proyecto%20JS%20Coder/pngwing.com_sf5ry5.png"
+                                    alt="" style="width: 20px;">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!--Loggin-->
+                <div class="col-1 col-md-1 col-lg-2 col-xl-2 d-flex justify-content-center align-items-center loggin">
+
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container">
+                                <div class="navbar-nav">
+                                    <a class="nav-link logginSection" href="construccion.html">Bienvenido/a Usuario</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <!--Cart y Modal-->
+                <div class="col-1 col-md-2 col-lg-2 col-xl-1 d-flex justify-content-center align-items-center favCart">
+
+                    <!--Cart-->
+                    <button type="button" class="btn boxButtonCart" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" id="botonCarrito">
+
+                        <!--Cart-->
+                        <nav class="navbar navbar-expand-lg boxCart">
+                            <div class="container">
+                                <div class="navbar-nav">
+                                    <a class="nav-link carting" href="#" id="contador">
+
+                                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665608182/Proyecto%20JS%20Coder/cart-removebg-preview_uy9pw9.png"
+                                            alt="" style="width: 35px;" class="imgCart">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </nav>
+
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" id="carritoPrueba">
+                            <div class="modal-content modalBox" id="carrito" style="width: 90%;">
+
+                                <!-- Header -->
+                                <div class="modal-header modalBoxTittle">
+                                    <h1 class="modal-title" id="exampleModalLabel">Carrito de compras</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                        id="cerrarModal"></button>
+                                </div>
+
+                                <!-- Body -->
+                                <div class="modal-body m-0 p-0" id="listadoCarrito">
+                                </div>
+
+                                <!-- Total -->
+                                <div class="container-fluid m-0 p-0 py-3 border-bottom" id="carritoTotal">
+
+                                    <div class="row m-0 p-0 d-flex justify-content-end align-items-center">
+                                    </div>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn w-100 vaciarCarrito" id="vaciarCarito">Vaciar
+                                        Carrito</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--NavBar-->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg p-0 p-xl-2 listaMenu">
+            <div class="container listaMenu">
+                <div class="container collapse navbar-collapse justify-content-center align-items-center"
+                    id="navbarNav">
+
+                    <div class="row">
+
+                        <!--Form Disappear-->
+                        <div class="col-12 d-flex justify-content-center align-items-center menuFormDisappear">
+                            <form class="container-fluid menuFormDisappear p-0 mt-2 formDisappear">
+                                <div class="input-group menuFormDisappear p-0">
+                                    <input type="text" class="form-control formPlace"
+                                        placeholder="Eso que querés..Buscalo acá" aria-label="Username"
+                                        aria-describedby="basic-addon1" id="formSearch">
+
+                                    <button type="button" class="btn btn-light buttonPlace menuFormDisappear btnDisappear"
+                                        id="formButton"><img
+                                            src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665609575/Proyecto%20JS%20Coder/pngwing.com_sf5ry5.png"
+                                            alt="" style="width: 20px;">
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-12">
+                            <ul class="navbar-nav d-flex flex-md-wrap ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active navEnlaces" style="font-weight: bolder;"
+                                        href="construccion.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        CATEGORÍAS
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="construccion.html">En construcción...</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="construccion.html">En construcción...</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">PCs de Escritorio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="index.html">Notebooks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">Placas de Video</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">Monitores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">Micros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">Gamers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">¡Imperdibles!</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navEnlaces" href="construccion.html">| Armá tu PC |</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link navEnlaces"
+                                        style="font-weight: bolder; font-size: 13px; margin-left: -5px;"
+                                        href="construccion.html">CORPORATIVO</a>
+                                </li>
+        
+                                <!--Disappear-->
+                                <li class="nav-item disappear">
+                                    <a href="index.html">
+                                        <span class="span">Seguí tu compra</span>
+                                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/trucklogo_b6dxnd.png"
+                                            alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item disappear">
+                                    <a href="index.html">
+                                        <span class="span">Retirá tu compra</span>
+                                        <img id="point"
+                                            src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/pickuppointlogo_gadyvs.png"
+                                            alt="">
+                                    </a>
+                                </li>
+        
+                                <li class="nav-item disappear mb-2">
+                                    <a href="index.html">
+                                        <span class="span">Centro de ayuda</span>
+                                        <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1665526588/Proyecto%20JS%20Coder/auricularescentrodeayuda_hcy2qg.png"
+                                            alt="">
+                                    </a>
+                                </li>                      
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Banner-->
+    <div class="container-fluid" id="banner">
+    </div>
+
+    <!--Check Out-->
+    <div class="container-fluid pb-5" id="section">
+        <div class="container">
+
+            <div class="row d-flex justify-content-center" id="productSection">
+
+                <!--Titulo-->
+                <div class="col-12 d-flex justify-content-center align-items-center p-3" id="tittleCarrito">
+                    Finalizar compra
+                </div>
+
+                <!--Identificacion-->
+                <div class="col-12 col-lg-4 col-xl-4 identif">
+                    <div class="row">
+                        <!--Identificacion-->
+                        <div class="col-12">
+
+                            <!--Titulo-->
+                            <div class="border p-3 mb-2">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <h5 class="h4Indentif"><span class="mx-2">1.</span>IDENTIFICACIÓN </h5>
+                                        </div>
+
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <a href="checkOut1.html" class="modificar" id="primerForm">Modificar</a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div id="identifAnterior">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--Envio y Forma de Pago-->
+                <div class="col-12 col-lg-4 col-xl-4 identif">
+                    <div class="row">
+
+                        <!--Envio-->
+                        <div class="col-12">
+
+                            <!--Titulo-->
+                            <div class="border p-3 mb-2">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-9 d-flex justify-content-start">
+                                            <h5 class="h4Indentif"><span class="mx-2">2.</span>ENVÍO </h5>
+                                        </div>
+
+                                        <div class="col-3 d-flex justify-content-end">
+                                            <a href="checkOut2.html" class="modificar" id="segundoForm">Modificar</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="envioAnterior">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Forma de Pago-->
+                        <div class="col-12">
+
+                            <!--Titulo-->
+                            <div class="border p-3 mb-2">
+                                <div class="col-12">
+                                    <div class="col-12 d-flex justify-content-start">
+                                        <h5 class="h4Indentif"><span class="mx-2">3.</span>PAGO </h5>
+                                    </div>
+                                </div>
+
+                                <div id="emailHelp" class="form-text col-12">
+                                    Solicitamos unicamente la información esencial para la finalización de la compra.
+                                </div>
+                            </div>
+
+
+                            <div class="card card-body envioBox border formBox">
+
+                                <form>
+
+                                    <div class="mb-3">
+                                        <label for="selecTC" class="form-label">Tarjeta</label>
+                                        <select class="form-select formInput" id="selecTC"
+                                            aria-label="Default select example" name="Tarjeta">
+                                            <option selected>Elejir una opcion</option>
+                                            <option value="Mastercard">Mastercard</option>
+                                            <option value="Visa">Visa</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="numTC" class="form-label">Numero de Tarjeta</label>
+                                        <input type="text" class="form-control formInput" id="numTC"
+                                            name="Número de Tarjeta">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="titularTC" class="form-label">Nombre y apellido como
+                                            figura en la tarjeta</label>
+                                        <input type="text" class="form-control formInput" id="titularTC"
+                                            name="Nombre y Apellido">
+                                    </div>
+
+                                    <div class="mb-3">
+
+                                        <label for="fechaVencimiento" class="form-label">Fecha de
+                                            vencimiento</label>
+
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <select class="form-select formInput"
+                                                    aria-label="Default select example" id="mesVencimiento"
+                                                    name="Mes de Vencimiento">
+                                                    <option selected></option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-4">
+                                                <select class="form-select formInput"
+                                                    aria-label="Default select example" id="vencimientoYear"
+                                                    name="Año de Vencimiento">
+                                                    <option selected></option>
+                                                    <option value="2022">2022</option>
+                                                    <option value="2023">2023</option>
+                                                    <option value="2024">2024</option>
+                                                    <option value="2025">2025</option>
+                                                    <option value="2026">2026</option>
+                                                    <option value="2027">2027</option>
+                                                    <option value="2028">2028</option>
+                                                    <option value="2029">2029</option>
+                                                    <option value="2030">2030</option>
+                                                    <option value="2031">2031</option>
+                                                    <option value="2032">2032</option>
+                                                </select>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="CVC" class="form-label">Código CVC</label>
+                                        <input type="text" class="form-control formInput" id="CVC" name="Código CVC">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="coutas" class="form-label">Elegi la cantidad decuotas</label>
+                                        <div class="col-4">
+                                            <select class="form-select formInput" aria-label="Default select example"
+                                                id="coutas" name="Coutas">
+                                                <option selected></option>
+                                                <option value="1">1 Cuota</option>
+                                                <option value="3">3 Cuotas</option>
+                                                <option value="6">6 Cuotas</option>
+                                                <option value="9">9 Cuotas</option>
+                                                <option value="12">12 Cuotas</option>
+                                                <option value="18">18 Cuotas</option>
+                                                <option value="24">24 Cuotas</option>
+                                            </select>
+                                        </div>
+
+                                        <div id="boxCuotas">
+                                        </div>
+
+                                    </div>
+
+                                    <a href="gracias.html" class="btn btnCard opacity-25 anularCarrito"
+                                        id="btnCont">Finalizar Compra</a>
+
+                                    <!--Spinner-->
+                                    <div id="spinner"
+                                        class="d-flex justify-content-center align-items-center mt-4 mb-4 d-none">
+                                        <div class="sk-chase">
+                                            <div class="sk-chase-dot"></div>
+                                            <div class="sk-chase-dot"></div>
+                                            <div class="sk-chase-dot"></div>
+                                            <div class="sk-chase-dot"></div>
+                                            <div class="sk-chase-dot"></div>
+                                            <div class="sk-chase-dot"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--RESUMEN-->
+                <div class="col-12 col-xl-4 identif">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <div class="border px-3 formBox">
+
+                                <!--Titulo-->
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div
+                                            class="col-7 col-sm-9 col-md-10 col-lg-10 col-xl-8 d-flex justify-content-start align-items-center pt-2">
+                                            <h5 class="h4Indentif"><span class="mx-2">4.</span>RESUMEN </h5>
+                                        </div>
+
+                                        <div
+                                            class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-start align-items-end">
+                                            <button type="button" class="btn boxButtonCart px-1" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">
+
+                                                <nav class="navbar navbar-expand-lg boxCart">
+                                                    <div class="container">
+                                                        <div class="navbar-nav">
+                                                            <a class="nav-link carting modificar modificarBox"
+                                                                href="#">Modificar</a>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                            </button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <!-- Lista Productos -->
+                                <div class="col-12 px-5 border-top" id="resumenBox">
+                                </div>
+
+                                <!--Resumen-->
+                                <div class="col-12 p-3" id="resumenTotal">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid" id="primerMenu">
+        <div class="container pt-4" id="primerMenue">
+            <div class="row">
+
+
+                <!--Datos Contacto-->
+                <div
+                    class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-start p-0 pb-2">
+                    <div class="row p-0">
+
+                        <div class="contact col-12 p-0 pb-3">
+
+                            <div class="contactTittle"> ATENCIÓN AL CLIENTE: </div>
+                            <div class="contactDato"> 0810-555-8892 </div>
+                            <div class="contactDato">
+                                <a href="mailto:consultas@venex.com.ar">
+                                    consultas@nerdo.com.ar
+                                </a>
+                            </div>
+
+                            <div class="contactDato">WhatsApp
+                                <a href="https://api.whatsapp.com/send/?phone=5493512000711" style="cursor:pointer;"
+                                    target="_blank">
+                                    +54 3512 000 711
+                                </a>
+                            </div>
+
+                            <br>
+
+                            <div class="contactDato"> Lun. a Vie. de 9 a 18h. Sab de 10 a 14h. </div>
+
+                            <br>
+
+                            <div class="textImgFooter">
+                                <div class="contactTittle">NERDO PICKUP POINT </div>
+                                <div> </div>
+                                <div class="contactDato"> Lun. a Vie. de 10 a 18h. </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Form Mail-->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-start">
+
+                    <div class="row">
+
+                        <div class="mailform">
+
+                            <!--Titulo y cuerpo-->
+
+                            <div class="col-12 d-flex justify-content-start pb-1 contactTittle">
+                                <div>ENTERATE PRIMERO</div>
+                            </div>
+                            <div class="col-12 pb-1 d-flex justify-content-start contactDato ">
+                                <div>Suscribite y recibí las mejores promos</div>
+                            </div>
+
+                            <br>
+
+                            <!--Form-->
+                            <div class="col-12">
+                                <form class="container-fluid p-0 pb-4 emailformBox">
+                                    <div class="input-group emailform">
+                                        <input type="text" class="form-control emailform"
+                                            placeholder="dirección de email...    " aria-label="Username"
+                                            aria-describedby="basic-addon1">
+
+                                        <button type="button" class="btn emailformButton "><img
+                                                src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667784123/Proyecto%20JS%20Coder/send2_jwvx2u.png"
+                                                alt="" style="width: 30px;">
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+
+                            <div class="col-12">
+                                <!--Iconos redes-->
+                                <div class="row px-2 pb-3 d-flex justify-content-start">
+
+                                    <div class="col-3 col-xl-3">
+                                        <a href="https://www.facebook.com/?stype=lo&jlou=AffHoqKzqRz_cNio9t8Rcb2sw8qgwXqgGeqR2t9ABHQ4Z7iQjlCQQ3n-4HTmC2cKfQU9AAt-yQsJj9L64Jr4twTn&smuh=59303&lh=Ac8T3zogM38KDfIOrJo"
+                                            target="_blank">
+                                            <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667784645/Proyecto%20JS%20Coder/facebook_key1wa.png"
+                                                alt="" style="width: 35px;" class="socialIcon" class="socialIcon">
+                                        </a>
+                                    </div>
+
+                                    <div class="col-3 col-xl-3">
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667784645/Proyecto%20JS%20Coder/instagram_qpcc4z.png"
+                                                alt="" style="width: 35px;" class="socialIcon">
+                                        </a>
+                                    </div>
+                                    <div class="col-3 col-xl-3">
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667785071/Proyecto%20JS%20Coder/youtube_1_ixunbl.png"
+                                                alt="" style="width: 35px;" class="socialIcon">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Data Fiscal-->
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-start dataBox">
+
+                    <div class="row">
+
+                        <div class="col-12 d-flex justify-content-center justify-content-lg-start contactTittle">
+                            <div>Copyright © 2022 - NERDO</div>
+                        </div>
+
+                        <!--Iconos Data Fiscal-->
+                        <div class="row pb-3">
+
+
+                            <div class="col-6 col-lg-3 d-flex justify-content-end justify-content-lg-center">
+                                <a href="https://serviciosweb.afip.gob.ar/clavefiscal/qr/publicInfoD.aspx"
+                                    target="_blank">
+                                    <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667785804/Proyecto%20JS%20Coder/DATAWEB_w3sdkh.jpg"
+                                        alt="" style="width: 60px;" class="socialIcon" class="socialIcon">
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-lg-5 d-flex justify-content-start justify-content-lg-center">
+                                <a href="https://cace.org.ar/" target="_blank">
+                                    <img src="https://res.cloudinary.com/dthpuldpm/image/upload/v1667785804/Proyecto%20JS%20Coder/sello-cace-venex_vdprww.png"
+                                        alt="" style="width: 95px;" class="socialIcon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Firma-->
+    <div class="container-fluid" id="firma">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <span class="span px-1">Desarrollado por </span>
+                    <a href="https://www.linkedin.com/in/lucas-castillo-20a331193/" target="_blank">
+                        <span class="span name">Lucas Castillo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--script src="js/bootstrap.min.js"></script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!--Script JS Propio-->
+    <script src="js/DataBase.js"></script>
+    <script src="js/pagoCheckOut .js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/resumenCheckOut.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/formExterno.js"></script>
+
+    </body>
+
+</html>
